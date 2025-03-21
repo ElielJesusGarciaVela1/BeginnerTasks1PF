@@ -180,7 +180,7 @@ public class PFArray {
             return;
         }
 
-        PFArray largestSumArray = arrays.get(0);
+        PFArray largestSumArray = arrays.getFirst();
         int largestSum = largestSumArray.sumOfElements();
 
         for (PFArray array : arrays) {
@@ -201,7 +201,7 @@ public class PFArray {
             return;
         }
 
-        PFArray smallestSumArray = arrays.get(0);
+        PFArray smallestSumArray = arrays.getFirst();
         int smallestSum = smallestSumArray.sumOfElements();
 
         for (PFArray array : arrays) {
